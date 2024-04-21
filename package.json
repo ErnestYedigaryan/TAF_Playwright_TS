@@ -1,0 +1,25 @@
+{
+  "name": "taf_playwright_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "test:headless": "npx playwright test",
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint \"**/*.ts\" --fix",
+    "prettier": "prettier .",
+    "prettier:fix": "prettier --write \"**/*.+(json|ts)\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
+}
